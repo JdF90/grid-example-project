@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-template-areas: 
+        'navigation user-setting'
+        'navigation main-content';
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    height: 100vh;
+}
+
+.navigation {
+    grid-area: navigation;
+    background-color: red;
+}
+
+.user-setting {
+    grid-area: user-setting;
+    background-color: blue;
+}
+
+.main-content {
+    grid-area: main-content;
+    background-color: green;
+}
+
+@media (max-width: 40em) {
+    main {
+        grid-template-areas: 
+        'navigation user-setting'
+        'main-content main-content';
+        grid-template-columns: 3fr 1fr;
+    }
+}

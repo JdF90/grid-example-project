@@ -1,0 +1,15 @@
+@import './grid.areas.style.css';
+
+/* 
+  To do AY:
+    - Maak grids voor mobile / iPad / desktop
+    - Vang dit in een grid
+    - Kies voor of tailwind classes of eigen classes
+    - Wanneer eigen classes:
+      - Splits CSS files op naar verschillende domeinen, dus
+          - Grid gerelateerde style sheets
+          - Style sheet voor buttons, fonts, headers, containers, kleuren, et cetera
+      - Zorg dat alleen de echt component specifieke CSS (voor zover nog over) is gedefinieerd in de component zelf
+    - Wanneer tailwind classes:
+      - 
+*/
