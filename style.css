@@ -2,6 +2,7 @@
 
 /* 
   To do AY:
+    - Voeg Page title area toe
     - Maak grids voor mobile / iPad / desktop
     - Vang dit in een grid
     - Kies voor of tailwind classes of eigen classes
@@ -11,5 +12,6 @@
           - Style sheet voor buttons, fonts, headers, containers, kleuren, et cetera
       - Zorg dat alleen de echt component specifieke CSS (voor zover nog over) is gedefinieerd in de component zelf
     - Wanneer tailwind classes:
-      - 
+
+    - Bepaal Grid voor verschillende menu's
 */

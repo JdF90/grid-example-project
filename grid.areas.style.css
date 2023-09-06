@@ -3,9 +3,9 @@ main {
     grid-template-areas: 
         'navigation user-setting'
         'navigation main-content';
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 5fr;
-    height: 100vh;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 8fr;
+    height: 98vh;
 }
 
 .navigation {
@@ -26,7 +26,7 @@ main {
 @media (max-width: 40em) {
     main {
         grid-template-areas: 
-        'navigation user-setting'
+        'user-setting navigation'
         'main-content main-content';
         grid-template-columns: 3fr 1fr;
     }
