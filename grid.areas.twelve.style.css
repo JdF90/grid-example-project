@@ -1,0 +1,44 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-rows: 120px auto;
+    grid-template-areas:
+        'nav nav hc hc hc hc hc hc hc us us us'
+        'nav nav mc mc mc mc mc mc mc mc mc mc'
+    ;
+    height: 98vh;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.navigation {
+    grid-area: nav;
+    background-color: red;
+}
+
+.user-setting {
+    grid-area: us;
+    background-color: blue;
+}
+
+.main-content {
+    grid-area: mc;
+    background-color: green;
+}
+
+.header {
+    grid-area: hc;
+    background-color: yellow;
+}
+
+@media (max-width: 40em) {
+    main {
+        grid-template-columns: repeat(4, [col-start] 1fr);
+        grid-template-rows: 120px 120px auto;
+        grid-template-areas:
+            'us us us nav'
+            'hc hc hc hc'
+            'mc mc mc mc'
+        ;
+    }
+}
